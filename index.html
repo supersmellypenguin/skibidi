@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Check this out!" />
+    <meta property="og:description" content="A cool emoji" />
+    <meta property="og:image" content="https://cdn.discordapp.com/emojis/1347655143478399048.webp?size=48&name=ted" />
+    <meta name="theme-color" content="#7289DA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
 
-  <!-- Open Graph preview for Discord -->
-  <meta property="og:image" content="https://cdn.discordapp.com/emojis/1347655143478399048.webp?size=48&name=ted" />
-  <meta name="theme-color" content="#7289DA" />
-
-  <!-- Instant redirect -->
-  <meta http-equiv="refresh" content="0; url=https://amazon.com" />
-</head>
-<body>
-</body>
+    <script>
+      // Redirect after 1.5 seconds (enough time for Discord to fetch preview)
+      setTimeout(function() {
+        window.location.href = "https://example.com";
+      }, 1500);
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
